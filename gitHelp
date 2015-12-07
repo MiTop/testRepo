@@ -1,0 +1,52 @@
+git
+===
+
+Init a git repo:
+	git init
+
+Or clone one (if ssh key is set up):
+	git clone git@github.com:MiTop/testRepo.git
+
+Otherwise use https connections.
+
+Configure User Settings (local settings):
+	git config user.email "mladentopic@hotmail.com"
+	git config user.name "MiTop"
+
+For example color:
+	git config color.ui auto
+
+===
+
+Watch stauts:
+	git status
+
+Copy or create a file and:
+	git add fileName
+
+Commit changes:
+	git commmit -m "Your comment"
+
+Push changes to remote:
+	git push
+
+===
+
+What branch are you on and how many are available:
+	git branch
+
+Create new branch:
+	git checkout -b yourBranchName
+
+Copy from origin to your new branch:
+	git push origin yourBranchName
+
+Change branch:
+	git checkout yourBranchName
+
+Do changes (add, commit, push)... back to master:
+	git checkout master
+
+Merge changes from branch:
+	git merge yourBranchName
+
