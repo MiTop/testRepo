@@ -7,7 +7,7 @@ def hello_world(request):
     return Response('Hello %(name)s!' % request.matchdict)
 
 def what_world(request):
-	return Response('What willste %(ever)s!' % request.matchdict)
+	return Response('Hey you %(ever)s!' % request.matchdict)
 
 def gen_config():
     config = Configurator()
